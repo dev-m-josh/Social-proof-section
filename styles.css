@@ -1,0 +1,133 @@
+@import url("https://fonts.google.com/specimen/League+Spartan");
+*{
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1240px;
+    font-size: 15px;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.products{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products>h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.products>p{
+    color:hsl(303, 10%, 53%);
+    margin-top: 0;
+}
+
+.rating{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: fit-content;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+.middle{
+    align-self: center;
+}
+
+.last{
+    align-self: flex-end;
+}
+/*********************************************/
+
+.lower{
+    display: flex;
+    gap: 20px;
+    height: 250px;
+}
+
+.buyer{
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.buyer>p{
+    color:hsl(300, 24%, 96%);
+}
+
+.smith{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.smith>img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.name>h5{
+    color:  hsl(0, 0%, 100%);
+    margin-bottom: 0;
+}
+
+.name>p{
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+
+.second{
+    justify-self: center;
+}
+
+
+.first{
+    align-self: flex-start;
+}
+
+.second{
+    align-self: center;
+}
+
+.bottom{
+    align-self: flex-end;
+}
